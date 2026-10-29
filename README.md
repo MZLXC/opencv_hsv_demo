@@ -36,6 +36,7 @@ int main()
     return 0;
 }
 
+Cmake
 1.
 图片后缀假：webp图片手动改名为jpg。只是改名字，文件编码没变，OpenCV 无法读取，cvtColor直接崩溃。
 解决方法：图片另存为，导出真正的JPEG/jpg 格式。
